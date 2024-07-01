@@ -5,12 +5,11 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Dr-Pepper</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta content="Explore our full line of Dr Pepper flavors and get rewarded for every purchase with Pepper Perks rewards.​" name="description">
 
   <!-- Favicons -->
   <link href="assets/img/logo.jpg" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/logo.jpg" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -301,15 +300,16 @@
           </div>
 
           <div class="col-lg-8">
-            <form action="" method="post" role="form" class="php-email-form">
+            <form name="contact" method="POST" data-netlify="true" onSubmit="submit" action="/success.html/" data-netlify-honeypot="bot-field">
+              <input type="text" name="bot-field" style="display: none;">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <label for="name">NAME</label>
                   <input type="text" name="name" class="form-control" id="name" placeholder="First Name" required="">
                 </div>
                 <div class="col-md-6 form-group">
-                  <label for="">LAST</label>
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Last Name" required="">
+                  <label for="name-two">LAST</label>
+                  <input type="text" name="name-two" class="form-control" id="name-two" placeholder="Last Name" required="">
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
                   <label for="email">EMAIL</label>
@@ -318,12 +318,12 @@
               </div>
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <label for="name">ADDRESS</label>
-                  <input type="text" name="line1" class="form-control" id="line1" placeholder="Line 1" required="">
+                  <label for="line">ADDRESS</label>
+                  <input type="text" name="line" class="form-control" id="line" placeholder="Line 1" required="">
                 </div>
                 <div class="col-md-6 form-group">
-                  <label for=""></label>
-                  <input type="text" name="line2" class="form-control" id="line2" placeholder="Line 2" required="">
+                  <label for="line-two"></label>
+                  <input type="text" name="line-two" class="form-control" id="line-two" placeholder="Line 2" required="">
                 </div>
               </div>
               <div class="row">
